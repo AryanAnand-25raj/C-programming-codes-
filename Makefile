@@ -1,5 +1,6 @@
 CC ?= gcc
 CFLAGS ?= -std=c11 -Wall -Wextra -Wpedantic -Werror
+LDLIBS ?= -lm
 
 SOURCES := $(sort $(wildcard src/*/*.c))
 PROGRAMS := $(patsubst src/%.c,bin/%,$(SOURCES))
@@ -10,7 +11,7 @@ all: $(PROGRAMS)
 
 bin/%: src/%.c
 	@mkdir -p "$(dir $@)"
-	$(CC) $(CFLAGS) "$<" -o "$@"
+	$(CC) $(CFLAGS) "$<" -o "$@" $(LDLIBS)
 
 check:
 	@set -e; for source in $(SOURCES); do \
