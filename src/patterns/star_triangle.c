@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int rows=5;
+
+    //first loop for printing rows
+
+    for(int i=0;i<rows;i++)
+    {
+        //second loop for printing characters in each rows
+        for(int j=0;j<=i;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
