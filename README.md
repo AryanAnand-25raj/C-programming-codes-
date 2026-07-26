@@ -12,23 +12,23 @@ The examples are grouped by their primary programming concept so learners can mo
 
 ```text
 .
-├── src/
-│   ├── arithmetic/      # Calculations and numeric operations
-│   ├── arrays/          # Array traversal and aggregation
-│   ├── conditionals/    # if/else and switch statements
-│   ├── loops/           # for and while loops
-│   ├── matrices/        # Two-dimensional array operations
-│   ├── patterns/        # Nested-loop pattern exercises
-│   ├── pointers/        # Address and pointer operations
-│   ├── searching/       # Linear and binary search
-│   ├── sorting/         # Elementary sorting algorithms
-│   ├── strings/         # Character arrays and string functions
-│   └── structures/      # User-defined record types
-├── docs/                # Project coding conventions
-├── .github/             # CI and contribution templates
-├── CONTRIBUTING.md
-├── Makefile
-└── README.md
+|-- src/
+|   |-- arithmetic/      # Calculations and numeric operations
+|   |-- arrays/          # Array traversal and aggregation
+|   |-- conditionals/    # if/else and switch statements
+|   |-- loops/           # for and while loops
+|   |-- matrices/        # Two-dimensional array operations
+|   |-- patterns/        # Nested-loop pattern exercises
+|   |-- pointers/        # Address and pointer operations
+|   |-- searching/       # Linear and binary search
+|   |-- sorting/         # Elementary sorting algorithms
+|   |-- strings/         # Character arrays and string functions
+|   `-- structures/      # User-defined record types
+|-- docs/                # Project coding conventions
+|-- .github/             # CI and contribution templates
+|-- CONTRIBUTING.md
+|-- Makefile
+`-- README.md
 ```
 
 > [!NOTE]
